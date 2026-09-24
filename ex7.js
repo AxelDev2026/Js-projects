@@ -3,11 +3,11 @@
 const dias = 12
 const valordia = 113.42
 
-const totalSemDesconto = dias * valordia
-let totalComDesconto = totalSemDesconto
+let calculo = dias * valordia
 
-if (dias > 10) {
-  totalComDesconto = totalSemDesconto - 50
-}
+if(dias > 10)[
+    calculo = calculo - 50
+]
 
-console.log(`Valor total da locação: R$ ${totalComDesconto.toFixed(2)}`)
+
+console.log(`o valor total é R$ ${calculo}`)
